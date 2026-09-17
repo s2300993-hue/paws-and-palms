@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Palms - Pet Adoption Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="brand-logo">
+                <div class="css-paw-logo">
+                    <div class="pad main-pad"></div>
+                    <div class="pad toe toe-1"></div>
+                    <div class="pad toe toe-2"></div>
+                    <div class="pad toe toe-3"></div>
+                    <div class="pad toe toe-4"></div>
+                </div>
+                <span>Paws & Palms</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#pets" class="nav-link">Pets</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#donate" class="btn-donate">Donate</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Find your new Best friend.</h1>
+            <p class="hero-subtitle">Connecting rescue pets with loving homes.</p>
+            <a href="#pets" class="btn-hero">Adopt a pet today</a>
+        </div>
+    </section>
+
+    <section id="pets" class="gallery-section">
+        <h2>Featured Rescues</h2>
+        <div class="gallery-grid">
+            
+            <div class="pet-card">
+                <div class="pet-image-box">
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=400&q=80" alt="Cat - 3yrs">
+                </div>
+                <h3>Cat - 3yrs</h3>
+                <p>Name: Whiskers</p>
+                <button class="btn-card">Meet Whiskers</button>
+            </div>
+
+            <div class="pet-card">
+                <div class="pet-image-box">
+                    <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=400&q=80" alt="Dog - 4yrs">
+                </div>
+                <h3>Dog - 4yrs</h3>
+                <p>Name: Max</p>
+                <button class="btn-card">Meet Max</button>
+            </div>
+
+            <div class="pet-card">
+                <div class="pet-image-box">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=400&q=80" alt="Dog - 2yrs">
+                </div>
+                <h3>Dog - 2yrs</h3>
+                <p>Name: Bella</p>
+                <button class="btn-card">Meet Bella</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="process" class="process-newsletter-section">
+        <div class="process-box">
+            <h2>How Adoption Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-num">1</div>
+                    <p>Submit Form</p>
+                </div>
+                <div class="arrow">&rarr;</div>
+                <div class="step">
+                    <div class="step-num">2</div>
+                    <p>Meet & Greet</p>
+                </div>
+                <div class="arrow">&rarr;</div>
+                <div class="step">
+                    <div class="step-num">3</div>
+                    <p>Take Home</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="newsletter-box">
+            <h2>Adoption Update</h2>
+            <form class="newsletter-form" onsubmit="event.preventDefault();">
+                <input type="email" placeholder="enter your email" required>
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+            <div class="css-heart-badge"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Paws & Palms. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
